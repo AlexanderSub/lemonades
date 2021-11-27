@@ -1,0 +1,65 @@
+@import "./variables.scss";
+
+@import "./blocks/page/page.scss";
+
+@import "./blocks/header/header.scss";
+@import "./blocks/header/__wrapper/header__wrapper.scss";
+@import "./blocks/header/__imagearea/header__imagearea.scss";
+@import "./blocks/header/__title/header__title.scss";
+@import "./blocks/header/__image/header__image.scss";
+@import "./blocks/header/__label/header__label.scss";
+@import "./blocks/header/__textarea/header__textarea.scss";
+@import "./blocks/header/__subtitle/header__subtitle.scss";
+@import "./blocks/header/__button/header__button.scss";
+@import "./blocks/header/__earth-image/header__earth-image.scss";
+@import "./blocks/header/__round/header__round.scss";
+
+@import "./blocks/main/main.scss";
+
+@import "./blocks/bar/bar.scss";
+@import "./blocks/description/description.scss";
+@import "./blocks/description/__title/description__title.scss";
+@import "./blocks/description/__block/description__block.scss";
+@import "./blocks/description/__block/_content/description__block_content_tastes.scss";
+@import "./blocks/description/__block/_content/description__block_content_composition.scss";
+@import "./blocks/description/__textarea/description__textarea.scss";
+@import "./blocks/description/__subtitle/description__subtitle.scss";
+@import "./blocks/description/__text/description__text.scss";
+@import "./blocks/description/__image/description__image.scss";
+@import "./blocks/description/__button/description__button.scss";
+@import "./blocks/description/__list/description__list.scss";
+@import "./blocks/description/__list-item/description__list-item.scss";
+
+@import "./blocks/soda/soda.scss";
+@import "./blocks/soda/__title/soda__title.scss";
+@import "./blocks/soda/__picture/soda__picture.scss";
+@import "./blocks/soda/__image/soda__image.scss";
+@import "./blocks/soda/__label/soda__label.scss";
+
+@import "./blocks/samples/samples.scss";
+@import "./blocks/samples/__wrapper/samples__wrapper.scss";
+@import "./blocks/samples/__textarea/samples__textarea.scss";
+@import "./blocks/samples/__inputarea/samples__inputarea.scss";
+@import "./blocks/samples/__title/samples__title.scss";
+@import "./blocks/samples/__text/samples__text.scss";
+@import "./blocks/samples/__subtitle/samples__subtitle.scss";
+@import "./blocks/samples/__textinputarea/samples__textinputarea.scss";
+@import "./blocks/samples/__inputcontainer/samples__inputcontainer.scss";
+@import "./blocks/samples/__label/samples__label.scss";
+@import "./blocks/samples/__input/samples__input.scss";
+@import "./blocks/samples/__input/_type/samples__input_type_text.scss";
+@import "./blocks/samples/__input/_type/samples__input_type_email.scss";
+@import "./blocks/samples/__button/samples__button.scss";
+
+@import "./blocks/footer/footer.scss";
+@import "./blocks/footer/__wrapper/footer__wrapper.scss";
+@import "./blocks/footer/__logo/footer__logo.scss";
+@import "./blocks/footer/__logo-text/footer__logo-text.scss";
+@import "./blocks/footer/__textarea/footer__textarea.scss";
+@import "./blocks/footer/__lists/footer__lists.scss";
+@import "./blocks/footer/__menu/footer__menu.scss";
+@import "./blocks/footer/__subtitle/footer__subtitle.scss";
+@import "./blocks/footer/__list/footer__list.scss";
+@import "./blocks/footer/__list-item/footer__list-item.scss";
+@import "./blocks/footer/__link/footer__link.scss";
+@import "./blocks/footer/__copyright/footer__copyright.scss";

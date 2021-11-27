@@ -1,0 +1,14 @@
+.header__title {
+  color: $thirdFontColor;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  margin: 0 0 40px 0;
+}
+
+@media screen and (max-width: 767px)  {
+  .header__title {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+}

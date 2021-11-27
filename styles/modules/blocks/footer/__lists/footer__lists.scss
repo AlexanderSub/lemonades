@@ -1,0 +1,10 @@
+.footer__lists {
+  display: flex;
+  column-gap: 145px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__lists {
+    flex-direction: column;
+  }
+}

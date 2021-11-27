@@ -1,0 +1,12 @@
+.header__imagearea {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px)  {
+  .header__imagearea {
+    margin-bottom: 50px;
+  }
+}

@@ -1,0 +1,19 @@
+.samples__input {
+  height: 46px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #fff;
+  padding-top: 2px;
+  padding-bottom: 13px;
+  box-sizing: border-box;
+}
+
+.samples__input:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 767px) {
+  .samples__input_type_text {
+    height: 30px;
+  }
+}

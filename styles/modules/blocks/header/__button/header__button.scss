@@ -1,0 +1,19 @@
+.header__button {
+  border: none;
+  width: 163px;
+  height: 55px;
+  background-color: $buttonsPrimaryColor;
+  color: $buttonsPrimaryFontColor;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0.3;
+}
+
+.header__button:hover {
+  box-sizing: border-box;
+  border: 2px solid $buttonsPrimaryBorderColor;
+  border-radius: 10px;
+  cursor: pointer;
+}

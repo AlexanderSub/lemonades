@@ -1,0 +1,17 @@
+.header__label {
+  background-image: url(../../../../images/pineapple.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 145px;
+  height: 145px;
+  right: -50px;
+  bottom: -35px;
+}
+
+@media screen and (max-width: 767px)  {
+  .header__label {
+    right: 10px;
+    bottom: -50px;
+  }
+}

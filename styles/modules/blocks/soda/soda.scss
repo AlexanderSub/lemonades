@@ -1,0 +1,18 @@
+.soda {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto -100px auto;
+  max-width: 1440px;
+  padding: 0 180px 0 154px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 767px) {
+  .soda {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-bottom: -58px;
+  }
+}

@@ -1,0 +1,13 @@
+.soda__picture {
+  position: relative;
+  z-index: -1;
+  display: flex;
+  max-width: 430px;
+  max-height: 610px;
+}
+
+@media screen and (max-width: 767px) {
+  .soda__picture {
+    margin: 0 20px;
+  }
+}

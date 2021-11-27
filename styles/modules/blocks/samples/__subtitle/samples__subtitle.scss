@@ -1,0 +1,14 @@
+.samples__subtitle {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0px;
+  margin: 0 0 50px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .samples__subtitle {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}

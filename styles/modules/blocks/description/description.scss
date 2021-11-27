@@ -1,0 +1,12 @@
+.description {
+  max-width: 1440px;
+  margin: 0 auto 20px auto;
+  padding: 0 50px 50px 50px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 767px) {
+  .description {
+    padding: 0 20px 20px 20px;
+  }
+}

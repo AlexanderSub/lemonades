@@ -1,0 +1,14 @@
+.description__block {
+  display: flex;
+  justify-content: space-between;
+  padding: 90px 100px;
+  color: $primaryFontColor;
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .description__block {
+    flex-direction: column;
+    padding: 20px;
+  }
+}

@@ -1,0 +1,18 @@
+.header__earth-image {
+  background-image: url(../../../../../images/earth.svg);
+  width: 169px;
+  height: 169px;
+  background-size: contain;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+@media screen and (max-width: 767px)  {
+  .header__earth-image {
+    width: 94px;
+    height: 94px;
+    top: 20px;
+    right: 20px;
+  }
+}

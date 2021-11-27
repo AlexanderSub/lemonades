@@ -1,0 +1,17 @@
+.samples {
+  margin: 0;
+  background-color: $thirdcolor;
+  width: 100%;
+  z-index: 2;
+  display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .samples {
+    width: 100%;
+    background-color: transparent;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,16 @@
+.samples__inputarea {
+  max-width: 693px;
+  background-color: $forthColor;
+  color: $primaryFontColor;
+  padding: 24px 30px 30px 30px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 767px) {
+  .samples__inputarea {
+    // width: 100%;
+    padding: 20px;
+  }
+}

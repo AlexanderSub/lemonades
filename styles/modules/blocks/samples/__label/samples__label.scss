@@ -1,0 +1,12 @@
+.samples__label {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0.3px;
+}
+
+@media screen and (max-width: 767px) {
+  .samples__label {
+    font-size: 14px;
+  }
+}

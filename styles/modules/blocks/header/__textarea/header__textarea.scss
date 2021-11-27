@@ -1,0 +1,9 @@
+.header__textarea {
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 767px)  {
+  .header__textarea {
+    align-self: flex-start;
+  }
+}

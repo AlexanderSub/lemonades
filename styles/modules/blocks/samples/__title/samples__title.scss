@@ -1,0 +1,17 @@
+.samples__title {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 65px;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: $secondaryFontColor;
+  margin: 149px 0 48px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .samples__title {
+    margin: 0 0 20px 10px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}

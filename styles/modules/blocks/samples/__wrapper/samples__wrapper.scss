@@ -1,0 +1,16 @@
+.samples__wrapper {
+  max-width: 1440px;
+  padding: 60px 50px 60px 150px;
+  margin: 0 auto;
+  display: flex;
+  column-gap: 90px;
+}
+
+@media screen and (max-width: 767px) {
+  .samples__wrapper {
+    margin: 0 20px;
+    padding: 10px;
+    flex-direction: column;
+    background-color: $thirdcolor;
+  }
+}

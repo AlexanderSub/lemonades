@@ -1,0 +1,13 @@
+.soda__image {
+  max-width: 430px;
+  max-height: 610px;
+  margin: 0;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 767px) {
+  .soda__image {
+    max-width: 280px;
+    max-height: 397px;
+  }
+}
