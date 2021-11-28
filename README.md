@@ -9,4 +9,4 @@ sass
 Изменение внешнего вида ссылок при помощи инструментов hover.
 
 
-Ссылка на GitHub проекта:
+Ссылка на GitHub проекта: https://alexandersub.github.io/lemonades/
