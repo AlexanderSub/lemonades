@@ -3,16 +3,23 @@
   justify-content: space-between;
   margin: 0 auto -100px auto;
   max-width: 1440px;
-  padding: 0 180px 0 154px;
+  padding: 20px 180px 0 154px;
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: $tabletWidth) {
   .soda {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0;
+    padding: 70px 0 0 0;
+    margin-bottom: -90px;
+  }
+}
+
+@media screen and (max-width: $mobileWidth) {
+  .soda {
+    padding: 30px 0 0 0;
     margin-bottom: -58px;
   }
 }

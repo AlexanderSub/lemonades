@@ -6,11 +6,18 @@
   column-gap: 90px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: $tabletWidth) {
+  .samples__wrapper {
+    margin: 0 50px;
+    padding: 60px 34px 34px 34px;
+    flex-direction: column;
+    background-color: $thirdcolor;
+  }
+}
+
+@media screen and (max-width: $mobileWidth) {
   .samples__wrapper {
     margin: 0 20px;
     padding: 10px;
-    flex-direction: column;
-    background-color: $thirdcolor;
   }
 }

@@ -3,7 +3,14 @@
   column-gap: 145px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: $tabletWidth) {
+  .footer__lists {
+    column-gap: 96px;
+  }
+}
+
+
+@media screen and (max-width: $mobileWidth) {
   .footer__lists {
     flex-direction: column;
   }

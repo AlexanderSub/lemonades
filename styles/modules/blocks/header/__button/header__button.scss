@@ -8,7 +8,7 @@
   font-size: 18px;
   font-weight: 500;
   line-height: 31px;
-  letter-spacing: 0.3;
+  letter-spacing: 0.3px;
 }
 
 .header__button:hover {
@@ -16,4 +16,11 @@
   border: 2px solid $buttonsPrimaryBorderColor;
   border-radius: 10px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .header__button {
+    width: 152px;
+    height: 51px;
+  }
 }

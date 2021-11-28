@@ -8,8 +8,8 @@
   color: $forthFontColor;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: $tabletWidth) {
   .footer__logo-text {
-    font-size: 15px;
+    font-size: 20px;
   }
 }

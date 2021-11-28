@@ -2,11 +2,18 @@
   max-width: 1440px;
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
   padding: 100px 150px;
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: $tabletWidth) {
+  .footer__wrapper {
+    padding: 120px 120px 50px 50px;
+  }
+}
+
+@media screen and (max-width: $mobileWidth) {
   .footer__wrapper {
     flex-direction: column;
     padding: 20px;

@@ -1,4 +1,16 @@
 .description__textarea {
-  display: flex;
-  flex-direction: column;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+@media screen and (max-width: $tabletWidth) {
+  .description__textarea {
+    grid-column: 1/3;
+  }
+}
+
+@media screen and (max-width: $mobileWidth) {
+  .description__textarea {
+    grid-column: 1/2;
+  }
 }

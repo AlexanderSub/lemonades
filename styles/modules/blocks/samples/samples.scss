@@ -6,7 +6,7 @@
   display: flex;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: $tabletWidth) {
   .samples {
     width: 100%;
     background-color: transparent;

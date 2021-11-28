@@ -4,3 +4,9 @@
   color: $primaryFontColor;
   min-height: 500px;
 }
+
+@media screen and (max-width: $tabletWidth) {
+  .footer {
+    min-height: 470px;
+  }
+}

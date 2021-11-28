@@ -31,21 +31,30 @@
   <main class="main">
     <div class="bar"> Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — </div>
 
-    <article class="description">
+    <article class="description" id="details">
       <h2 class="description__title">Как это работает?</h2>
-      <div class="description__block description__block_content_tastes">
+      <div class="description__block description__block_content_tastes" id="tastes">
         <div class="description__textarea">
           <h2 class="description__subtitle">Вкусы</h2>
           <p class="description__text">Пейте фрукты, а не газировку со вкусовыми&nbsp;добавками, наши лимонады на 100% натуральны!</p>
         </div>
         <img src="./images/lemonade-strawberry.jpg" alt="Бутылка лимонада" class="description__image">
       </div>
-      <div class="description__block description__block_content_composition">
+
+      <div class="description__block description__block_content_composition" id="composition">
+        
         <div class="description__textarea">
           <h2 class="description__subtitle">Состав</h2>
           <p class="description__text">Наши натуральные лимонады делаются из натуральных компонентов.</p>
-          <button class="description__button">Попробовать</button>
         </div>
+
+        <button class="description__button">Попробовать</button>
+
+        <div class="description__circles">
+          <div class="description__circle1"></div>
+          <div class="description__circle2"></div>
+        </div>
+
         <ul class="description__list">
           <li class="description__list-item">Сок</li>
           <li class="description__list-item">Пюре</li>
@@ -53,8 +62,7 @@
           <li class="description__list-item">Пузыри</li>
           <li class="description__list-item">Витамины</li>
         </ul>
-        <!-- <div class="description__circle1"></div>
-        <div class="description__circle2"></div> -->
+
       </div>
     </article>
 
@@ -67,11 +75,11 @@
 
     </article>
 
-    <article class="samples">
+    <article class="samples" id="samples">
       <div class="samples__wrapper">
         <div class="samples__textarea">
           <h2 class="samples__title">Семплы</h2>
-          <p class="samples__text">Хотите получить семплы каждого вкуса, чтобы понять что нравится вам? заполните форму!</p>
+          <p class="samples__text">Хотите получить семплы каждого вкуса, чтобы понять, что нравится вам? Заполните форму!</p>
         </div>
         <div class="samples__inputarea">
           <h3 class="samples__subtitle">Семплы</h3>
@@ -112,13 +120,13 @@
             <h4 class="footer__subtitle">Меню</h4>
             <ul class="footer__list">
               <li class="footer__list-item">
-                <a href="" class="footer__link">Вкусы</a>
+                <a href="#tastes" class="footer__link">Вкусы</a>
               </li>
               <li class="footer__list-item">
-                <a href="" class="footer__link">Состав</a>
+                <a href="#composition" class="footer__link">Состав</a>
               </li>
               <li class="footer__list-item">
-                <a href="" class="footer__link">Семплы</a>
+                <a href="#samples" class="footer__link">Семплы</a>
               </li>
             </ul>
           </nav>

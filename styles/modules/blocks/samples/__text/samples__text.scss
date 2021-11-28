@@ -6,7 +6,13 @@
   color: $secondaryFontColor;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: $tabletWidth) {
+  .samples__text {
+    margin: 0 0 100px 26px;
+  }
+}
+
+@media screen and (max-width: $mobileWidth) {
   .samples__text {
     margin: 0 0 50px 10px;
     font-size: 14px;

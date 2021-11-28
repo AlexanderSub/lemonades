@@ -8,9 +8,15 @@
   column-gap: 100px;
 }
 
-@media screen and (max-width: 767px)  {
+@media screen and (max-width: $tabletWidth)  {
+  .header__wrapper {
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: $mobileWidth)  {
   .header__wrapper {
     padding: 20px;
-    flex-direction: column;
   }
 }

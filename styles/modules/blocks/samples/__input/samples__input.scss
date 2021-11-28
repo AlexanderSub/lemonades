@@ -12,8 +12,8 @@
   outline: none;
 }
 
-@media screen and (max-width: 767px) {
-  .samples__input_type_text {
+@media screen and (max-width: $mobileWidth) {
+  .samples__input {
     height: 30px;
   }
 }

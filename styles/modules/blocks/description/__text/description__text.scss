@@ -9,7 +9,13 @@
   margin: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: $tabletWidth) {
+  .description__text {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: $mobileWidth) {
   .description__text {
     font-size: 14px;
     line-height: 19px;

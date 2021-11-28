@@ -1,14 +1,18 @@
 .description__block {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
   padding: 90px 100px;
   color: $primaryFontColor;
   position: relative;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: $tabletWidth) {
   .description__block {
-    flex-direction: column;
+    padding: 60px;
+  }
+}
+
+@media screen and (max-width: $mobileWidth) {
+  .description__block {
     padding: 20px;
   }
 }

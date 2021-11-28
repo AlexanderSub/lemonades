@@ -1,0 +1,19 @@
+.description__circles {
+  display: flex;
+  flex-direction: column;
+  grid-column: 2/3;
+  grid-row: 1/3;
+}
+
+@media screen and (max-width: $tabletWidth) {
+  .description__circles {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+}
+
+@media screen and (max-width: 618px) {
+  .description__circles {
+    display: none;
+  }
+}

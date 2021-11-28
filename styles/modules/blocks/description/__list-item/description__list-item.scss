@@ -11,3 +11,12 @@
 .description__list-item:last-child {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: $mobileWidth) {
+  .description__list-item {
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+}

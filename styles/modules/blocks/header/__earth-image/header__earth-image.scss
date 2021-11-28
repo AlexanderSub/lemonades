@@ -8,7 +8,16 @@
   right: 50px;
 }
 
-@media screen and (max-width: 767px)  {
+@media screen and (max-width: $tabletWidth)  {
+  .header__earth-image {
+    width: 128px;
+    height: 128px;
+    top: 40px;
+    right: 50px;
+  }
+}
+
+@media screen and (max-width: $mobileWidth)  {
   .header__earth-image {
     width: 94px;
     height: 94px;
