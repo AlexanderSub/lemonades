@@ -109,7 +109,7 @@
 }
 
 .header__label {
-  background-image: url(../../../../images/pineapple.svg);
+  background-image: url(../../../../images/pineapple.png);
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
@@ -215,7 +215,7 @@
 }
 
 .header__earth-image {
-  background-image: url(../../../../../images/earth.svg);
+  background-image: url(../../../../../images/earth.png);
   width: 169px;
   height: 169px;
   background-size: contain;
@@ -706,7 +706,7 @@
 }
 
 .soda__label {
-  background-image: url(../../../../../images/mango.svg);
+  background-image: url(../../../../../images/mango.png);
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
@@ -1042,7 +1042,7 @@
 .footer__logo {
   width: 300px;
   height: 300px;
-  background-image: url(../../../../../images/footer-logo.jpg);
+  background-image: url(../../../../../images/footer-logo.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-color: transparent;
