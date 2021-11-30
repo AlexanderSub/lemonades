@@ -11,3 +11,29 @@
     min-height: 515px;
   }
 }
+
+.header::after {
+  content: "Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh —";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $thirdcolor;
+  color: #016450;
+  width: 100%;
+  height: 76px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+}
+
+@media screen and (max-width: $mobileWidth) {
+  .header::after {
+    height: 64px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
