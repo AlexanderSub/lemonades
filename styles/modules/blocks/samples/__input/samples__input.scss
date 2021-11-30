@@ -6,10 +6,20 @@
   padding-top: 2px;
   padding-bottom: 13px;
   box-sizing: border-box;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0.3px;
+  color: $primaryFontColor;
 }
 
 .samples__input:focus {
   outline: none;
+}
+
+.samples__input:hover {
+  cursor: pointer;
 }
 
 @media screen and (max-width: $mobileWidth) {

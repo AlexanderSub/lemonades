@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Вкусные лимонады из фруктов</title>
-  <link rel="stylesheet" href="./styles/modules/styles.css">
-  <link rel="stylesheet" href="./vendor/fonts/fonts.css">
   <link rel="stylesheet" href="./vendor/normalize.css">
+  <link rel="stylesheet" href="./vendor/fonts/fonts.css">
+  <link rel="stylesheet" href="./styles/modules/styles.css">
 </head>
 <body class="page">
 
@@ -20,7 +20,7 @@
 
       <div class="header__textarea">
         <h2 class="header__subtitle">Вкусные лимонады из&nbsp;фруктов</h2>
-        <button class="header__button">Подробнее</button>
+        <a href="#details" class="header__button">Подробнее</a>
       </div>
 
       <div class="header__round"></div>
@@ -29,8 +29,6 @@
   </header>
 
   <main class="main">
-    <div class="bar"> Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — </div>
-
     <article class="description" id="details">
       <h2 class="description__title">Как это работает?</h2>
       <div class="description__block description__block_content_tastes" id="tastes">
@@ -42,17 +40,17 @@
       </div>
 
       <div class="description__block description__block_content_composition" id="composition">
-        
+
         <div class="description__textarea">
           <h2 class="description__subtitle">Состав</h2>
           <p class="description__text">Наши натуральные лимонады делаются из натуральных компонентов.</p>
         </div>
 
-        <button class="description__button">Попробовать</button>
+        <a href="#samples" class="description__button">Попробовать</a>
 
         <div class="description__circles">
-          <div class="description__circle1"></div>
-          <div class="description__circle2"></div>
+          <div class="description__circle description__circle_type_big"></div>
+          <div class="description__circle description__circle_type_small"></div>
         </div>
 
         <ul class="description__list">
@@ -81,27 +79,28 @@
           <h2 class="samples__title">Семплы</h2>
           <p class="samples__text">Хотите получить семплы каждого вкуса, чтобы понять, что нравится вам? Заполните форму!</p>
         </div>
-        <div class="samples__inputarea">
+
+        <form class="samples__inputarea" name="samples">
           <h3 class="samples__subtitle">Семплы</h3>
           <div class="samples__textinputarea">
             <fieldset class="samples__inputcontainer">
               <label for="name" class="samples__label">Имя *</label>
-              <input type="text" id="name" name="name" class="samples__input samples__input_type_text">
+              <input type="text" id="name" name="name" required class="samples__input samples__input_type_text">
             </fieldset>
 
             <fieldset class="samples__inputcontainer">
               <label for="surname" class="samples__label">Фамилия *</label>
-              <input type="text" name="surname" id="surname" class="samples__input samples__input_type_text">
+              <input type="text" name="surname" id="surname" required class="samples__input samples__input_type_text">
             </fieldset>
           </div>
 
           <fieldset class="samples__inputcontainer">
             <label for="email" class="samples__label">Email *</label>
-            <input type="email" name="email" id="email" class="samples__input samples__input_type_email">
+            <input type="email" name="email" id="email" required class="samples__input samples__input_type_email">
           </fieldset>
 
-          <button class="samples__button">Запросить</button>
-        </div>
+          <button class="samples__button" type="submit">Запросить</button>
+        </form>
       </div>
 
     </article>
@@ -149,6 +148,6 @@
 
     </div>
   </footer>
-
+  <script src="./scripts/script.js"></script>
 </body>
 </html>

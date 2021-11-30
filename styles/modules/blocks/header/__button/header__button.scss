@@ -1,7 +1,5 @@
 .header__button {
-  border: none;
-  width: 163px;
-  height: 55px;
+  padding: 12px 30px;
   background-color: $buttonsPrimaryColor;
   color: $buttonsPrimaryFontColor;
   font-family: inherit;
@@ -9,11 +7,12 @@
   font-weight: 500;
   line-height: 31px;
   letter-spacing: 0.3px;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
 .header__button:hover {
-  box-sizing: border-box;
-  border: 2px solid $buttonsPrimaryBorderColor;
+  outline: 2px solid $buttonsPrimaryBorderColor;
   border-radius: 10px;
   cursor: pointer;
 }
